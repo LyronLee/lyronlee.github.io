@@ -1,0 +1,6 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://blog.lyron.top/sitemap.xml
+Sitemap: https://blog.lyron.top/baidusitemap.xml
