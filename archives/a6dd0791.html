@@ -1,0 +1,198 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>从知识产权ABS到知识产权RWA（二）——知识产权代币化前瞻探讨 | Lyron's Blog</title><meta name="author" content="李立润（Lyron Lee）"><meta name="copyright" content="李立润（Lyron Lee）"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="本文解析了香港《数字资产发展政策宣言2.0》框架下的现实世界资产代币化（RWA）合规路径，以朗新集团充电桩项目为例，揭示其核心逻辑：通过“两链一桥”技术（境内可信资产链、跨境跨链桥、境外交易链）实现数据合规跨境与风险隔离，将底层资产收益权转化为链上代币。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="从知识产权ABS到知识产权RWA（二）——知识产权代币化前瞻探讨">
+<meta property="og:url" content="https://blog.lyron.top/archives/a6dd0791.html">
+<meta property="og:site_name" content="Lyron&#39;s Blog">
+<meta property="og:description" content="本文解析了香港《数字资产发展政策宣言2.0》框架下的现实世界资产代币化（RWA）合规路径，以朗新集团充电桩项目为例，揭示其核心逻辑：通过“两链一桥”技术（境内可信资产链、跨境跨链桥、境外交易链）实现数据合规跨境与风险隔离，将底层资产收益权转化为链上代币。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic.lyron.top/pic/a07f6db792364d529819580dacc47f06_1.jpg">
+<meta property="article:published_time" content="2025-08-01T00:00:00.000Z">
+<meta property="article:modified_time" content="2025-08-09T15:05:58.583Z">
+<meta property="article:author" content="李立润（Lyron Lee）">
+<meta property="article:tag" content="知识产权金融">
+<meta property="article:tag" content="资产证券化">
+<meta property="article:tag" content="真实世界资产">
+<meta property="article:tag" content="RWA">
+<meta property="article:tag" content="代币化">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic.lyron.top/pic/a07f6db792364d529819580dacc47f06_1.jpg"><link rel="shortcut icon" href="https://pic.lyron.top/pic/20231219204832.png"><link rel="canonical" href="https://blog.lyron.top/archives/a6dd0791.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="Cdme6399WfJ45jefxYRMSuWsWFAmI08xMLAw5sOw6Ns"/><meta name="baidu-site-verification" content="codeva-E7VD1SBh29"/><meta name="sogou_site_verification" content="kHAGBAVon0"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: 李立润（Lyron Lee）","link":"链接: ","source":"来源: Lyron's Blog","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '从知识产权ABS到知识产权RWA（二）——知识产权代币化前瞻探讨',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2025-08-09 23:05:58'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.0.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://pic.lyron.top/pic/a07f6db792364d529819580dacc47f06_1.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">14</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">23</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://t.alcy.cc/fj')"><nav id="nav"><span id="blog-info"><a href="/" title="Lyron's Blog"><span class="site-name">Lyron's Blog</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">从知识产权ABS到知识产权RWA（二）——知识产权代币化前瞻探讨</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-08-01T00:00:00.000Z" title="发表于 2025-08-01 08:00:00">2025-08-01</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-08-09T15:05:58.583Z" title="更新于 2025-08-09 23:05:58">2025-08-09</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E9%87%91%E8%9E%8D/">知识产权金融</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="从知识产权ABS到知识产权RWA（二）——知识产权代币化前瞻探讨"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>知识产权代币化，这个合规发行路径要从《香港数字资产发展政策宣言 2.0》聊起。香港除了出台了《稳定币条例（草案）》之外，还出台了《香港数字资产发展政策宣言 2.0》，表明了香港特区政府对于数字化资产的态度，明确了以“LEAP”为政策框架，实验性探索现实世界资产代币化的路径，通过区块链技术与传统金融市场的结合，提升金融产品交易的实质性效益。同时，香港特区政府也希望通过表明对数字资产发展的开放态度、对合规路径和监管方式的探索等，将香港特区建设成引领全球的数字资产金融中心，进一步巩固香港特区的世界金融中心地位。</p>
+<p>需要事前声明的是，任何现实世界资产项目目前均在实验阶段，同时目前的现实世界资产代币化项目一般仅面向专业投资者开放，并不对普通投资者开放，任何打着“稳定币”或者“现实世界资产代币化”旗号的所谓金融投资项目均需要仔细核对其真实性，避免不法分子利用市场热点进行非法集资诈骗。</p>
+<p><strong>本文仅做现实世界资产代币化及知识产权代币化的学术探讨，讨论其底层逻辑、合规路径以及未来发展可能性等，不构成任何投资建议或者意见</strong>。</p>
+<h2 id="现实世界资产代币化-RWA"><a href="#现实世界资产代币化-RWA" class="headerlink" title="现实世界资产代币化 RWA"></a>现实世界资产代币化 RWA</h2><p>上一篇笔者提到RWA与资产证券化有着千丝万缕的联系，这个观点在《香港数字资产发展政策宣言 2.0》（以下称“《政策宣言 2.0》”）也可以看到。对于现实世界资产代币化，香港特区政府在《政策宣言 2.0》中提到“相同业务、相同风险、相同规则”的监管原则，这要求对现实世界资产代币化项目监管将进行穿透式理解，若底层逻辑属于证券业务，那就需要受到香港《证券及期货条例》的管辖和规制。这个观点亦可见于香港证监会发布的《有关中介从事代币化证券相关活动的通函》，其中提到“<strong>代币化证券基本上是以代币化作为包装的传统证券</strong>”。</p>
+<p>简单理解，所谓现实世界资产代币化实际上就是将传统资产证券化（通证化）的中心交易记账管理机构替换成了可信区块链技术（DLT），交易账本无需再由某个中心化的机构进行管理，而转由区块链上各个节点来共同参与，实现不可篡改的交易记账。因此，如果现实世界资产代币化技术仅就记账职能机构发生改变，但是底层资产的交易逻辑仍旧是传统证券化金融项目的现实情况下，笔者认为肯定是要受到相应的证券条例监管的，这也是香港特区政府及香港证监会所提出的“相同业务、相同风险、相同规则”的逻辑所在。</p>
+<p>至于在“币圈”和相关短视频中，存在一些“极力将RWA与传统的ABS做切割，认为RWA是划时代、极大变革、与传统金融没有一点关系、是对传统金融颠覆性革命”的论调，笔者对此持否定态度。RWA技术确实相较于传统金融可以带来更加高效的交易效率、相对更加隐私的交易保护、更加透明的信息公开等等优势，但这些特点即使不使用所谓的现实世界资产代币化技术，保留现有的中心化交易所记账职能，由金融机构加大信息化建设，引入更多的自动化交易技术、自动化的信息公开技术，亦能够达到或者比肩现实世界资产代币化的交易效率和信息透明度。</p>
+<p>现实世界资产代币化其本质依然是将能够产生现金流的资产进行份额分割，通过出卖收益权份额实现融资的交易逻辑，抛开记账方式的区别，现实世界资产代币化与传统资产证券化并没有太多实质性区别。笔者认为应当客观看待现实世界资产代币化的优势和缺点，不应该过度吹捧新兴技术，更不应该通过贩卖焦虑，宣扬“RWA就是下一个风口”、“RWA造富传说”、“RWA可以让资产高速流动”等等论调来收割普通投资者。</p>
+<p>本文会通过目前仅有的一些代表性RWA案例，讨论中国大陆资产赴香港发行现实世界资产代币的合规路径。</p>
+<h2 id="朗新集团充电桩项目的资产代币化"><a href="#朗新集团充电桩项目的资产代币化" class="headerlink" title="朗新集团充电桩项目的资产代币化"></a>朗新集团充电桩项目的资产代币化</h2><p><img src="https://pic.lyron.top/pic/image-20250731105938077.png" alt="朗新集团充电桩RWA项目结构图"></p>
+<p>基于目前公开信息检索结果，笔者勉强拼凑出了朗新集团的充电桩RWA项目的结构图。大致的交易逻辑如下，首先由朗新集团向境内设立的SPV基于“真实交易”出让充电桩的收益权和管理权，实现充电桩资产包与融资主体朗新集团之间的风险隔离。境内SPV主体获得充电桩的收益权和管理权之后，由境内SPV主体将充电桩设备数据和充电交易数据等相关信息基于物联网技术进行自动化收集并同步记录于境内合规的可信资产区块链上，以保证信息真实和不可篡改。然后，再由境内特殊目的主体SPV与香港合规的境外SPV主体签订收益转移协议，实现境内充电桩资产收益向香港转移，方便后续向投资者分配。境外SPV主体基于从境内SPV主体获得的收益权，在香港建立可信交易链，基于交易链进行记账并基于链上的智能合约实现收益分配。同时，境内可信资产链上的数据进行数据出境合规审查后，通过可信跨链桥与境外可信交易链进行数据同步。这就是蚂蚁数科在此项目中的创造性操作，“两链一桥”基于境内可信资产链、可信跨链桥和境外可信交易链，实现境内数据收集、数据出境合规以及境外境内区块链的数据互联互通，为境内资产赴港进行真实世界资产代币化发行提供了底层技术支撑。</p>
+<p>上面这个结构图，因为涉及数据跨境合规、外汇管制合规等事项，需要设立两个SPV主体以及利用“两链一桥”结构等复杂操作，才能够实现中国大陆的资产在中国香港进行现实世界资产代币化RWA。如果把数据跨境流通和资金跨境流通的部分合并省略，我们会发现RWA的项目结构和传统金融的资产证券化交易结构十分相似。</p>
+<p><img src="https://pic.lyron.top/pic/image-20250731115005502.png" alt="简化版朗新RWA结构图"></p>
+<p>我们假设中国大陆支持真实世界资产RWA融资项目在本土发行落地，那么我们就可以简化朗新集团RWA融资项目得到上面这个结构图。朗新集团直接基于真实交易出让充电桩的管理收益权给SPV主体，SPV主体通过物联网技术等方式将现实世界的充电桩运营数据和交易数据上传到区块链进行记账，同时将收益权分割成若干份分配给认购相应token份额的投资者。</p>
+<p>这个交易结构实质上和传统金融的资产证券化结构是十分相似的，唯一的区别在于传统金融依赖交易所进行交易记账和份额确认，而真实世界资产RWA项目基于区块链进行记账，同时由于真实世界资产RWA项目其信息化程度更高，可以通过计算机技术向投资者同步更多采集到的真实资产交易数据，使得项目融资运营情况更加透明公开可信。</p>
+<p>从这个角度穿透分析，也可以印证为什么香港特区政府会定义“<strong>代币化证券基本上是以代币化作为包装的传统证券</strong>”，同时提出“相同业务、相同风险、相同规则”的监管原则。</p>
+<p><strong>分析到这里，基本上知识产权RWA也呼之欲出了，将底层资产替换成能够产生现金流收益的知识产权，并基于区块链技术、物联网技术等计算机技术对资产进行确权、记账、交易管理，那么就是一个知识产权的真实世界资产融资项目了。</strong></p>
+<h2 id="现实世界资产RWA合规要求"><a href="#现实世界资产RWA合规要求" class="headerlink" title="现实世界资产RWA合规要求"></a>现实世界资产RWA合规要求</h2><p>目前没有专门针对现实世界资产RWA融资项目的操作细则规定，我们本文聚焦的香港RWA融资项目也是在实验探索阶段。但在政策大方针上看，可以确定对于RWA这种区块链融资技术手段，香港特区政府还是将其视为一种工具，对其规管还是需要进行穿透分析的，对于涉及证券或者期货交易的，还是应当纳入《证券及期货条例》进行规管。</p>
+<p>本文参考朗新集团的RWA融资项目，来讨论一下中国大陆资产赴香港进行RWA融资需要涉及哪些方面的合规要求。</p>
+<p><strong>风险隔离</strong>。站位投资者来说，我肯定希望项目风险越小越好，受到融资主体经营状况影响越小越好，最好能够保本保收益。那么，风险隔离肯定是必不可少的合规步骤，通过真实交易将资产从融资发起人一方剥离，独立经营实现风险隔离。</p>
+<p><strong>数据合规</strong>。RWA项目由于是程序化可编程的项目，计算机自动化程度高，可以方便的采集资产端的设备数据、交易数据以及运营数据，甚至是用户个人数据，那么难免会涉及一些敏感数据信息的采集，如何保护个人隐私和商业秘密数据，避免侵害第三方合法权益，也是项目能够合法合规发行的重要前置步骤。</p>
+<p><strong>数据跨境流转合规</strong>。由于项目底层资产在中国大陆、而资产交易在中国香港特区，关联项目的相关数据难免需要进行跨境同步，这时就需要根据数据所在地的法律法规要求进行数据安全合规，特别是涉及数据跨境流转的，需要根据规定进行备案审批。</p>
+<p><strong>外汇管制合规</strong>。由于是跨境融资项目，资金必然会涉及跨境流动，需要根据所在地的外汇管制规定进行报备、审批合规。</p>
+<p><strong>网络安全合规</strong>。RWA项目涉及区块链计算机技术，需要对技术安全性进行审核评定，避免因系统缺陷而为融资项目引入额外的网络安全风险，进而导致项目资金安全性降低。</p>
+<p><strong>项目发行资质合规</strong>。除了项目本身的合规要求，做为中介人、发行商也需要根据当地规定获得政府规定的金融牌照，否则也不能够开展相应的融资活动。</p>
+<h2 id="现实世界资产RWA的优势"><a href="#现实世界资产RWA的优势" class="headerlink" title="现实世界资产RWA的优势"></a>现实世界资产RWA的优势</h2><p><strong>透明度和可信度高</strong>。相比传统金融，RWA融资由区块链技术、计算机技术和物联网技术做为技术支撑，其自动化程度高，可以提供高效的数据流通支持，方便投资者了解项目的实际运营状况，提高了项目的透明度和可信度。</p>
+<p><strong>交易便捷高效</strong>。相比传统金融，RWA项目依托区块链的高度自动化程序，能够实现T+0的交易效率，提升了资产的流动性。</p>
+<p><strong>去中心化交易</strong>。稳定币和现实世界资产RWA均是区块链技术的实际应用，稳定币锚定现实世界的货币或者其他有经济价值的计价单位，现实世界资产RWA锚定现实世界能够产生现金流的优质资产，在交易认证上可以通过跨链桥等技术实现互联互通，方便地基于稳定币进行交易，进而能够规避一些传统金融系统的限制，例如理论上可以绕开“SWIFT”系统的规制，实现去中心化的结算交易。</p>
+<h2 id="现实世界资产RWA的劣势"><a href="#现实世界资产RWA的劣势" class="headerlink" title="现实世界资产RWA的劣势"></a>现实世界资产RWA的劣势</h2><p>当前，特别是“币圈”市场对稳定币和RWA技术的吹捧甚嚣尘上，笔者在开篇便表明了对此持保留意见。</p>
+<p>按照目前的监管态势，中国大陆比较可行的RWA融资路径是赴港融资，而且早期由蚂蚁数科做为技术支持，开辟了几个合规样板融资项目，取得了不错的效果。后续开展的项目大概率也是依照当前已有的几个项目做为样板。同时，依照“相同业务、相同风险、相同规则”的监管原则，后续的项目发行大概率还是受到香港《证券及期货条例》规制的。那么传统金融资产证券化项目的发行成本，现实世界资产RWA项目基本也存在相应的成本项目。</p>
+<p>同时，由于现实世界资产RWA项目相比传统的资产证券化项目ABS引入了区块链技术，那么在计算机技术领域的网络安全防控肯定是必不可少的。</p>
+<p>再加之现状中国大陆对于区块链金融的管制，若要合规发行RWA项目还需要额外赴港进行发行，那么又增加了跨境合规成本，包括数据安全合规以及外汇合规等。</p>
+<p>综上，当下中国大陆法规环境下，合规进行现实世界资产代币化发行相较于传统金融资产证券化发行，除了需要付出原有的律师服务费、会计审计费用、金融服务机构发行服务费用之外，还需要额外的区块链技术改造及安全防护技术费用、数据跨境合规费用以及外汇管制合规费用。从目前看起来，进行跨境现实世界资产发行成本是高于传统金融资产证券化费用的。</p>
+<p>也即，现实世界资产RWA项目目前存在<strong>发行操作复杂</strong>，<strong>发行成本高</strong>的缺陷。需要资产优质、融资规模远超普通资产证券化规模，例如像朗新集团RWA项目发行规模就近1亿元，否则高昂的发行成本将使得发行真实世界资产融资项目得不偿失，缺少性价比和竞争力。</p>
+<p>并且，现阶段RWA项目仅面向合资格的投资者，<strong>投资门槛极高</strong>，例如香港RWA项目要求专业机构、或者800万港元投资规模的个人投资者参与，并非如一些社交媒体所称的，RWA项目是普通人暴富的风口，按照目前的标准我相信绝大多数“普通人”还没有资格参与到新兴的RWA项目中。</p>
+<p>即，现行现实世界资产RWA项目至少存在<strong>发行操作复杂</strong>，<strong>发行成本高</strong>，<strong>投资门槛极高</strong>的“特点”，暂时还算不上人人可参与的大众融资项目。将现行现实世界资产RWA看做更加高效、为传统金融注入高流动性的创新型金融工具更加合适。</p>
+<h2 id="知识产权RWA项目展望"><a href="#知识产权RWA项目展望" class="headerlink" title="知识产权RWA项目展望"></a>知识产权RWA项目展望</h2><p>如前所述，参考朗新集团RWA项目，将底层资产替换成能够产生现金流收益的知识产权，并基于区块链技术、物联网技术等计算机技术对资产进行确权、记账、交易管理，那么就是一个知识产权的真实世界资产融资项目了。</p>
+<p>知识产权传统资产证券化项目，实际上存在比较严重的收益确定困难的问题，不管是知识产权持有者仔细实施还是许可他人实施。未来如果结合区块链技术及链上智能合约技术、IoT物联网技术，可以提高对现实世界知识产权实施情况的监控和统计，例如可以更好的掌握实施了知识产权方案的产品生产数量，并基于物联网技术进行数据采集和上链登记，再基于智能合约进行营收统计和收益分配，能够显著提升知识产权经营性现金流统计效率，更加便利知识产权证券化或者通证化的操作，节约成本。故而，相较于传统的资产证券化项目，基于知识产权底层资产的项目是更加适合利用RWA技术进行通证化发行的。</p>
+<p>笔者是加期待看到知识产权RWA项目落地的，知识产权做为“无形财产权”，只有在真正落地实施并清楚其产生经济价值，才能够真正发挥知识产权的保护作用以及促进科学技术发展的作用，尽管现实世界资产融资成本目前看起来相对较高，但是其高度自动化的技术特点，是可以更好地服务知识产权项目的产品统计、收益统计等，提升知识产权资产融资的可信度、透明度以及收益统计效率，自动化的RWA技术可以很好地克服传统资产证券化技术难以适应知识产权底层资产统计、审计需要的缺点，进而提供清晰可信的知识产权实施现金流统计信息，提高知识产权融资项目落地的可能性。故而，笔者乐于见到未来RWA技术在知识产权领域的应用。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://blog.lyron.top">李立润（Lyron Lee）</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://mp.weixin.qq.com/s/uEMg10aQ3JrTWMlxjRT8fw">https://mp.weixin.qq.com/s/uEMg10aQ3JrTWMlxjRT8fw</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.lyron.top" target="_blank">Lyron's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E9%87%91%E8%9E%8D/">知识产权金融</a><a class="post-meta__tags" href="/tags/%E8%B5%84%E4%BA%A7%E8%AF%81%E5%88%B8%E5%8C%96/">资产证券化</a><a class="post-meta__tags" href="/tags/%E7%9C%9F%E5%AE%9E%E4%B8%96%E7%95%8C%E8%B5%84%E4%BA%A7/">真实世界资产</a><a class="post-meta__tags" href="/tags/RWA/">RWA</a><a class="post-meta__tags" href="/tags/%E4%BB%A3%E5%B8%81%E5%8C%96/">代币化</a></div><div class="post_share"><div class="social-share" data-image="https://pic.lyron.top/pic/a07f6db792364d529819580dacc47f06_1.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/archives/8e7d436.html" title="从知识产权ABS到知识产权RWA（一）——知识产权证券化"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">从知识产权ABS到知识产权RWA（一）——知识产权证券化</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/archives/8e7d436.html" title="从知识产权ABS到知识产权RWA（一）——知识产权证券化"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2025-07-26</div><div class="title">从知识产权ABS到知识产权RWA（一）——知识产权证券化</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://pic.lyron.top/pic/a07f6db792364d529819580dacc47f06_1.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">李立润（Lyron Lee）</div><div class="author-info__description">专注于知识产权、不正当竞争以及公司法律事务（付费咨询，添加微信：Lyron-Li）</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">14</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">23</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="mailto:LyronLee@qq.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E8%B5%84%E4%BA%A7%E4%BB%A3%E5%B8%81%E5%8C%96-RWA"><span class="toc-number">1.</span> <span class="toc-text">现实世界资产代币化 RWA</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%97%E6%96%B0%E9%9B%86%E5%9B%A2%E5%85%85%E7%94%B5%E6%A1%A9%E9%A1%B9%E7%9B%AE%E7%9A%84%E8%B5%84%E4%BA%A7%E4%BB%A3%E5%B8%81%E5%8C%96"><span class="toc-number">2.</span> <span class="toc-text">朗新集团充电桩项目的资产代币化</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E8%B5%84%E4%BA%A7RWA%E5%90%88%E8%A7%84%E8%A6%81%E6%B1%82"><span class="toc-number">3.</span> <span class="toc-text">现实世界资产RWA合规要求</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E8%B5%84%E4%BA%A7RWA%E7%9A%84%E4%BC%98%E5%8A%BF"><span class="toc-number">4.</span> <span class="toc-text">现实世界资产RWA的优势</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8E%B0%E5%AE%9E%E4%B8%96%E7%95%8C%E8%B5%84%E4%BA%A7RWA%E7%9A%84%E5%8A%A3%E5%8A%BF"><span class="toc-number">5.</span> <span class="toc-text">现实世界资产RWA的劣势</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83RWA%E9%A1%B9%E7%9B%AE%E5%B1%95%E6%9C%9B"><span class="toc-number">6.</span> <span class="toc-text">知识产权RWA项目展望</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/archives/a6dd0791.html" title="从知识产权ABS到知识产权RWA（二）——知识产权代币化前瞻探讨">从知识产权ABS到知识产权RWA（二）——知识产权代币化前瞻探讨</a><time datetime="2025-08-01T00:00:00.000Z" title="发表于 2025-08-01 08:00:00">2025-08-01</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/archives/8e7d436.html" title="从知识产权ABS到知识产权RWA（一）——知识产权证券化">从知识产权ABS到知识产权RWA（一）——知识产权证券化</a><time datetime="2025-07-26T00:57:33.000Z" title="发表于 2025-07-26 08:57:33">2025-07-26</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/archives/a9f621c5.html" title="专利确权程序中仅修改从属权利要求应否接受">专利确权程序中仅修改从属权利要求应否接受</a><time datetime="2024-07-31T01:15:33.000Z" title="发表于 2024-07-31 09:15:33">2024-07-31</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/archives/b1b79cab.html" title="专利确权程序中“进一步限定”式修改的审查">专利确权程序中“进一步限定”式修改的审查</a><time datetime="2024-07-30T01:15:33.000Z" title="发表于 2024-07-30 09:15:33">2024-07-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/archives/eec6e446.html" title="企业专利教程01 | 万字解析中国专利制度">企业专利教程01 | 万字解析中国专利制度</a><time datetime="2024-07-11T09:33:33.000Z" title="发表于 2024-07-11 17:33:33">2024-07-11</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://t.alcy.cc/fj')"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2025 By 李立润（Lyron Lee）</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
