@@ -1,0 +1,271 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>开源协议 Creative Commons | Lyron's Blog</title><meta name="author" content="李立润（Lyron Lee）"><meta name="copyright" content="李立润（Lyron Lee）"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="本文系统梳理了开源运动的起源（从AT&amp;T Unix闭源到BSD反抗），强调其“技术共享”的核心精神。重点介绍了Creative Commons (CC) 协议的六大主要类型（CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, CC BY-NC-ND）及其特点（如署名-BY、非商用-NC、相同共享-SA、禁止演绎-ND），并以人类首张黑洞照片（CC B">
+<meta property="og:type" content="article">
+<meta property="og:title" content="开源协议 Creative Commons">
+<meta property="og:url" content="https://blog.lyron.top/archives/a3b754e5.html">
+<meta property="og:site_name" content="Lyron&#39;s Blog">
+<meta property="og:description" content="本文系统梳理了开源运动的起源（从AT&amp;T Unix闭源到BSD反抗），强调其“技术共享”的核心精神。重点介绍了Creative Commons (CC) 协议的六大主要类型（CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA, CC BY-ND, CC BY-NC-ND）及其特点（如署名-BY、非商用-NC、相同共享-SA、禁止演绎-ND），并以人类首张黑洞照片（CC B">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic.lyron.top/pic/a07f6db792364d529819580dacc47f06_1.jpg">
+<meta property="article:published_time" content="2025-09-08T09:21:00.000Z">
+<meta property="article:modified_time" content="2025-09-08T15:23:49.834Z">
+<meta property="article:author" content="李立润（Lyron Lee）">
+<meta property="article:tag" content="开源协议">
+<meta property="article:tag" content="Creative Commons">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic.lyron.top/pic/a07f6db792364d529819580dacc47f06_1.jpg"><link rel="shortcut icon" href="https://pic.lyron.top/pic/20231219204832.png"><link rel="canonical" href="https://blog.lyron.top/archives/a3b754e5.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="Cdme6399WfJ45jefxYRMSuWsWFAmI08xMLAw5sOw6Ns"/><meta name="baidu-site-verification" content="codeva-E7VD1SBh29"/><meta name="sogou_site_verification" content="kHAGBAVon0"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: 李立润（Lyron Lee）","link":"链接: ","source":"来源: Lyron's Blog","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '开源协议 Creative Commons',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2025-09-08 23:23:49'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.0.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://pic.lyron.top/pic/a07f6db792364d529819580dacc47f06_1.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">25</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://t.alcy.cc/fj')"><nav id="nav"><span id="blog-info"><a href="/" title="Lyron's Blog"><span class="site-name">Lyron's Blog</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">开源协议 Creative Commons</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-09-08T09:21:00.000Z" title="发表于 2025-09-08 17:21:00">2025-09-08</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-09-08T15:23:49.834Z" title="更新于 2025-09-08 23:23:49">2025-09-08</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%BC%80%E6%BA%90%E5%8D%8F%E8%AE%AE/">开源协议</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="开源协议 Creative Commons"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="开源运动的背景"><a href="#开源运动的背景" class="headerlink" title="开源运动的背景"></a>开源运动的背景</h2><p>当我们在聊开源的时候，不能仅仅聊什么是开源、怎么开源、开源条款是什么？如果不了解开源的精神内核，只会把这个充满浪漫主义和科技情怀的人文概念，变成冷冰冰的生意，我认为这是在玷污开源主义。</p>
+<p>AT&amp;T 贝尔实验室在 1970 年代研发出了 Unix 系统，并在起初几个版本向学术机构和大型企业提供价格低廉甚至是免费的源代码许可，用作研究或者教学之用。后来越来越多机构接触到 Unix 系统，同时基于 Unix 源代码做了相当多的衍生开发。</p>
+<p>随着用户的累积，AT&amp;T 嗅到了商业机会，于是在后续版本更新中收回了 Unix 系统的源代码许可。至此，世界上依然还不存在“自由软件”运动思潮，但是 Unix 的开放源代码行为，为世界种下了一颗开源的种子。</p>
+<p>由于 AT&amp;T 此前的源代码开放以及推广行为，Unix 在各个领域得到了广泛的应用。AT&amp;T 突然的“闭源”操作，引起了开发者们的反抗。加州大学伯克利分校和其他研究机构一样，基于先前开放源代码的 Unix 版本衍生研发了 BSD 操作系统，同时开放使用。这是真正意义上开源运动的发端。</p>
+<p>后续诸如 Linux 系统开发者 Linus Torvalds、GNU 计划的发起者 Richard Stallman 等开源运动推动者不断为开源运动注入灵魂和力量，越来越多的开发者将自己开发的源代码发布到开源社区，同时也有越来越多的开发者为开源软件贡献自己的智慧。</p>
+<p>随着相关运动的展开，开源运动也不可避免的与闭源商业软件发生冲突，例如 AT&amp;T 就对 BSD 发起了侵权诉讼，同时也有很多商业公司使用了开源代码后将衍生开发的软件闭源。</p>
+<p>这一切让开源协议应运而生，通过开源协议来规范开源代码的使用，同时也推动更多开发者加入到源代码开放运动中，进而推动科学技术创新。</p>
+<p>前面提到的“自由软件”就是开源运动的最早起源，在英文中写作“Free Software”，然而这里面的“Free”到底是“自由”还是“免费”，还是存在一些歧义的。1990 年代，软件社区的著名成员在一起开会，由于“自由软件”运动本身是存在一些“宗教化”和“对抗”的色彩，不利于推广，企业在使用开源代码时也会存在一些顾虑。为了打消企业的顾虑，同时也突出“自由软件”的实用主义和业务价值，与会者提出了使用“开源软件（Open Source）”的概念来替代之前的“自由软件”概念，淡化其中的意识形态色彩，同时也规避了“Free Software”的理解歧义。</p>
+<p>从开源运动思潮的发展，不难看出不管是所谓的“自由软件”还是“开源软件”，其核心思想其实是“技术共享”（开放、协作、共享与自由）。不管是哪种派别的开源主义者，都是愿意共享技术、共享知识的。这群人对于封闭的技术保护、技术垄断是天然反感的。更多的开源主义者会认为通过开放的技术共享，可以推动人类的技术创新和发展，而垄断的技术会阻碍人类技术发展的进程。</p>
+<p>这是开源思潮的核心背景。如果忽视这个技术思潮和技术运动的核心内涵，很可能让开源协议的解释、理解和使用变形，最终重新沦为技术垄断的工具。</p>
+<h2 id="Creative-Commons-协议（CC-协议）"><a href="#Creative-Commons-协议（CC-协议）" class="headerlink" title="Creative Commons 协议（CC 协议）"></a>Creative Commons 协议（CC 协议）</h2><p>前面提到，开源运动起源于一群“技术宅”、“极客”对源代码的共享。随着开源共享风气的传播，慢慢的实验数据、技术论文这些都被纳入了“开源”的范畴，也即是开源的范围是在不断扩大的。</p>
+<p>现在，几乎所有的作品都是可以开源的，不管是图像、文字还是其他可能得作品形式。</p>
+<p>国际影响力相对较大的版权开源协议，就是本文要讨论的 Creative Commons License（知识共享许可协议，简称“CC 协议”）。这可能是普通人最容易接触到的开源协议了。这也是本文选择 CC 协议进行讨论的原因。</p>
+<p><img src="https://pic.lyron.top/pic/v2-ebfd1292cb15798162567104f0863955_r.jpg" alt="人类第一张黑洞照片（Credit：EHT Collaboration,CC-BY-4.0）"></p>
+<p>这张照片应该是传播最广泛的“开源”作品，作者是 EHT Collaboration（事件视界望远镜合作组织），采用的协议是 CC BY-4.0，其中 CC 就是本文要讨论的 Creative Commons License（知识共享许可协议），BY 是 CC 协议中的署名限制要求，4.0 是 CC 协议的版本号。合起来理解，便是这个照片适用 CC 协议 4.0 版本，仅要求署名，对其他的共享许可条件是不限制的。</p>
+<p>不知道大家留意到了没有，笔者在写 CC 协议全称的时候，补充了“License（许可）”一词。有许可的存在，这就意味着开源作品是有著作权保护的，也意味着开源不是无主之地。开源是建立在知识产权保护之上的，这个许可是面向不特定多数人发出要约的，同时一般而言是可以在满足一定条件情况下自由使用的。这可能和大多数人理解的“<strong>开源</strong>”等同于“<strong>免费、无版权</strong>”并不相同，甚至是反直觉的。</p>
+<h2 id="开源源自于知识产权垄断"><a href="#开源源自于知识产权垄断" class="headerlink" title="开源源自于知识产权垄断"></a>开源源自于知识产权垄断</h2><p><strong>有版权保护才有开源运动</strong>。这个观点看起来好像是类似于“先有鸡还是先有蛋”的表述，但实则不然，开源必然是建立在合法的版权垄断制度之上的，否则开源没有任何意义，也无法实现以开源促进知识共享的目的。</p>
+<p>因为在开源叙事中，有一个很重要的理念，即附带限制条件的许可。实际上，附条件的开源许可，就是建立在版权制度之上的，如果你要获得我的开源许可，那你就应当遵守我开出的许可条件，否则你就不能够获得我的许可。这是开源制度相对反直觉的地方，没有知识产权保护，则开源无从谈起。</p>
+<p>开源运动得以广泛的传播，有赖于一个病毒式的限制条件，这个限制条件是“以相同条件传播”。也就是说开源者希望通过开源手段实现更多的知识共享，一般而言会附带“以相同条件传播”的附加条件，以此来限制使用开源作品的人共享其衍生作品，使得越来越多的人加入到开源事业中。这是开源所具有的“传染性”。</p>
+<p>那使用者为什么要遵守开源作品提供者的限制条件呢？正是因为知识产权的强制保护力，如果没有了政府赋予的知识产权强制保护，那么“开源”将成为无根之木，无从谈起。任何人都可以肆意攫取他人的知识成果，开源也就失去了意义，更加不可能通过限制条件来限制衍生作品加入到开源运动中。</p>
+<h2 id="CC-协议的开源许可类型"><a href="#CC-协议的开源许可类型" class="headerlink" title="CC 协议的开源许可类型"></a>CC 协议的开源许可类型</h2><p>CC 协议提供了标准化的开源许可类型，从最宽松到最严格分别是：CC BY、CC BY-SA、CC BY-NC、CC BY-NC-SA、CC BY-ND、CC BY-NC-ND。除此之外，CC 协议还提供完全放弃版权的标记，CC0（又称 CC Zero）。</p>
+<p>接下来，我们来看看六种标准化的 CC 协议许可类型、以及例外的完全放弃版权的 CC0 ，分别代表什么意思。</p>
+<h3 id="CC-BY"><a href="#CC-BY" class="headerlink" title="CC BY"></a>CC BY</h3><p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://creativecommons.org/licenses/by/4.0/" title="CC BY">CC BY</a>是仅做署名要求的 CC 协议开源许可类型，属于最宽松的类型。前面提到的黑洞照片就是采用这种协议类型。使用者只要遵守署名的限制要求，可以自由地共享、演绎该作品，也包括了基于商业目的的使用。所以，“视觉中国”才敢堂而皇之地将该黑洞照片列为其商业数据库需要付费使用的照片作品。</p>
+<p>具体署名的方式要求如下：以适当方式标记署名、提供指向 CC 协议官网对应类型协议的链接，同时标明是否对（原始作品）做出修改，使用者不得以任何方式暗示作品原始作者为使用者或者使用者的使用行为提供任何背书。</p>
+<h3 id="CC-BY-SA"><a href="#CC-BY-SA" class="headerlink" title="CC BY-SA"></a>CC BY-SA</h3><p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://creativecommons.org/licenses/by-sa/4.0/" title="CC BY-SA">CC BY-SA</a>相比 CC BY 多了一项“SA”的要求，即“ShareAlike”，这个 CC 协议开源许可类型要求使用者、或者更准确的说是原始作品的演绎作者（衍生作品的作者），对于使用了标注了“CC BY-SA”的作品进行包括翻译、改编、编排、改写或其他依据著作权与类似权利需要获得所有人许可的修改，则需要依照原始作品的开源许可要求，使用相同的“CC BY-SA”开源许可协议，同时不得附加任何其他法律条件、或者对演绎作品增加技术手段上的限制措施。</p>
+<p>基本上每种 CC 协议开源类型都有与之对应的“SA”开源类型。其限制条件是相类似的，我们后面就不再针对“SA”类型做出进一步的补充解释。</p>
+<p>其实，“SA”、“ShareAlike”实质上就是我们常说的开源协议的传染性，通过要求原始作品的衍生作品采用相同的许可协议的方式，实现更多具有开源许可协议的作品诞生，确保知识成果在开源社区中持续开放和共享，后续的创作者无法在原有开源作品的基础上创作闭源的衍生作品。这种“ShareAlike”的做法，实际上建立在强知识产权保护的法律体系之上，如果没有强知识产权保护制度，那么原始作者对于衍生作品作者的许可限制要求将失去强制约束力。开源运动如果没有知识产权这种看似与开源、开放、共享等开源理念相违背的法律制度保护，开源运动将会土崩瓦解。</p>
+<h3 id="CC-BY-NC-SA"><a href="#CC-BY-NC-SA" class="headerlink" title="CC BY-NC(-SA)"></a>CC BY-NC(-SA)</h3><p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" title="CC BY-NC">CC BY-NC</a>(<a target="_blank" rel="noopener external nofollow noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA">-SA</a>)是限制要求署名、非商业化、以及相同方式共享【可选】的 CC 协议开源许可类型。BY 和 SA 的相关开源许可要求在前面我们已经讨论过了，这里我们不再赘述。这一小节我们聚焦于 NC（NonCommercial）非商业目的的讨论。</p>
+<p>CC 协议中简要版的非商业目的的解释是“您不得将本作品用于商业目的”，详细版的说明也仅仅进一步解释道：“商业性使用是指主要目的为获得商业优势或金钱回报”。这里的“商业目的”在解释上，不同法域、不同国家、甚至是在不同的作者眼中实际上是有不同的解释尺度的，存在一些灰色地带和争议空间。</p>
+<p>争议空间在于当作品的分享本身不涉及金钱交易，但是相应的阅读给开源作品使用者带来了账号流量的增长、吸引了更多的粉丝、获得了更多的平台流量分成、基于与作品无关的页面广告获得了广告收入等等，是否落入非商业化的限制范围，以及是否落入获取了商业优势或者金钱回报的范围。</p>
+<p>在这个争议空间中，CC 协议保持了克制的态度，仅仅限定了“以 CC BY-NC（-SA）作品去交换其他具有著作权的作品或者与其他享有著作权相类似权利的作品，只要该交换过程不涉及金钱交易，则不视为商业性使用”。对于前面笔者提及的其他情形，CC 协议并未做出具体规定。</p>
+<p>对此，参考 Creative Commons 在维基百科上做出的相关解释，他们认为非盈利组织、研究机构对于 NC 作品的使用一般而言是非商业目的的；对于商业、个人等其他实体而言，关于 NonCommercial 仍然存在解释空间，CC 协议中采用“主要”一词进行表述也是意图留下解释空间，以便根据各地法律法规和原始作者对于非商业化态度（或者说商业化容忍程度）确定是否禁止相应的商业化使用行为。</p>
+<p>这也就要求使用包含 NC 限制条件开源作品的使用者，审慎对待其在各种可能的商业活动中使用 NC 作品，并且最好是在取得作者同意的情况下使用。</p>
+<p>在NC限制条件项下，唯一明确的是“非商业用途”是可以获得 NC 开源类型的非商业用途许可的。</p>
+<h3 id="CC-BY-NC-ND"><a href="#CC-BY-NC-ND" class="headerlink" title="CC BY-(NC)-ND"></a>CC BY-(NC)-ND</h3><p><a target="_blank" rel="noopener external nofollow noreferrer" href="https://creativecommons.org/licenses/by-nd/4.0/" title="CC BY-ND">CC BY-ND</a>【<a target="_blank" rel="noopener external nofollow noreferrer" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" title="CC BY-NC-ND">CC BY-NC-ND</a>】，是指要求署名、非商业化【可选】、禁止演绎的开源许可类型。如前所述，BY 和 NC 的限制条件我们前文已经讨论过了，在此不再赘述。这里我们来着重讨论一下 ND-禁止演绎。</p>
+<p>“ND-禁止演绎”，顾名思义就是禁止对开源原始作品进行修改，并且也禁止任何形式的修改作品分发。由于不能修改和分发，相应的被许可人也就仅仅可以将原始的开源作品进行分享，做为原始作品的构成部分，对应的作者名称、以及 CC 协议条款标注要求，也是需要原封不动转发的，同时不得对他人依照许可范围做出任何法律及技术层面的限制。</p>
+<p>在含有禁止演绎限制条件的 CC 协议开源类型中，CC BY-NC-ND 无疑是最严格的，要求被许可人遵照 CC 协议约定的署名条件，不附加任何改编演绎，且用于非商业用途的转载。否则，可能因违反开源协议而被追究法律责任。</p>
+<table>
+<thead>
+<tr>
+<th align="center">协议类型</th>
+<th align="center">署名</th>
+<th align="center">非商业化</th>
+<th align="center">禁止演绎</th>
+<th align="center">相同方式共享</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">CC BY</td>
+<td align="center">·</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">CC BY-SA</td>
+<td align="center">·</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">·</td>
+</tr>
+<tr>
+<td align="center">CC BY-NC</td>
+<td align="center">·</td>
+<td align="center">·</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">CC BY-NC-SA</td>
+<td align="center">·</td>
+<td align="center">·</td>
+<td align="center">-</td>
+<td align="center">·</td>
+</tr>
+<tr>
+<td align="center">CC BY-ND</td>
+<td align="center">·</td>
+<td align="center">-</td>
+<td align="center">·</td>
+<td align="center">○</td>
+</tr>
+<tr>
+<td align="center">CC BY-NC-ND</td>
+<td align="center">·</td>
+<td align="center">·</td>
+<td align="center">·</td>
+<td align="center">○</td>
+</tr>
+</tbody></table>
+<p><em><strong>注：</strong>该表为 CC 协议不同开源许可类型比较表；其中，·为包含该限制、-为不包含该限制、○ 为因其他限制导致该项无效。</em></p>
+<h3 id="CC-0"><a href="#CC-0" class="headerlink" title="CC 0"></a>CC 0</h3><p>标注 CC0 声明的作品，作者放弃该作品的所有著作权及其邻接权，作品进入公众领域。公众可以复制、修改、发行和发表该作品，也包括商业应用，均无需经过同意。</p>
+<h2 id="CC-BY-NC-SA-或为最优开源类型"><a href="#CC-BY-NC-SA-或为最优开源类型" class="headerlink" title="CC BY-NC-SA 或为最优开源类型"></a>CC BY-NC-SA 或为最优开源类型</h2><p>这里是笔者的个人观点，不构成开源许可类型的选择建议或者意见，并且对任何类型的开源许可协议均不存在歧视，仅做开源精神的讨论，以及阐述个人认可 CC BY-NC-SA 开源许可类型的原因。</p>
+<p>笔者认为，开源应当是开放、共享、合作以及薪火相传的。这里面的几个核心价值观笔者认为是缺一不可的。首先，开源运动参与者开源的动机是希望通过放弃一定的版权权益的方式，将知识和技术共享给他人，以此来促进人类技术的发展；同时还希望开源使用者能够饮水思源，在享受到开源便利的同时，能够有更多的人加入到开源运动中，从而壮大开源参与者队伍，增加开源作品的数量，进而可以以几何数量增长的形式生产更多的开源作品，让开源作品源源不断地涌现，实现量变引起质变。每一个开放作品都是一颗星星之火，最终能够形成燎原之势，实现“技术大同”。</p>
+<p>以上是笔者认为“CC BY-NC-SA 为最优类型”的底层原因。BY（署名）是对开源作者的基本人格尊重，这应该也是 CC 协议几乎所有许可类型都要求署名的原因。NC（非商业化）则实际上是对知识付费的抵抗，知识是人类发展的阶梯，而 NC（非商业化）正好符合开源共享的精神，作者的作品表达无非是在无数前人的观点基础上，往前迈了一小步，而在迈开这一小步之后画地为牢，守住成果故步自封，显然不是开源运动参与者想要看到的。推动人类科学技术加速向前，与微薄的版权收益相比，前者明显对开源参与者更重要。最后，SA（相同方式共享）实际上是实现“技术大同”最重要的一点，如果他人基于开源作品做出改编演绎，却又将作品封闭起来，无疑是让开源者寒心的。相当于我付出了大量的劳动，好不容易点燃了一盏微弱的烛光，照亮了后面的行人，一位行人路过这盏烛光后，顺手又把它吹熄了，这是我不希望看到的。</p>
+<p>故而，笔者会认为 CC BY-NC-SA（署名-非商业化-相同方式共享）可能是当下最优的 CC 开源协议类型。</p>
+<h2 id="违反-CC-开源协议的后果"><a href="#违反-CC-开源协议的后果" class="headerlink" title="违反 CC 开源协议的后果"></a>违反 CC 开源协议的后果</h2><p>CC 协议或者其他的开源协议，本质上是开源者做为许可方（也是著作权人），开源作品使用者做为被许可方，双方基于“要约-承诺”订立开源许可合同，开源者和开源作品使用者之间是合同关系。对于违反 CC 开源协议的规定，CC 开源协议中原文记载为：“if You fail to comply with this Public License, then Your rights under this Public License terminate automatically.”，中文记载为：“如果您没有遵守此公共许可协议，则您依据此公共许可协议享有的权利自动终止”。这意味着违反作者标注的 CC 协议许可限制条件，将导致开源许可被作者收回。那么，如果违反 CC 协议导致开源许可被收回，应当认定为违约，还是应当认定为侵权呢？</p>
+<p>笔者查阅了多篇相关论文<a href="%E6%BD%98%E4%BA%AE.%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E5%8F%B8%E6%B3%95%E4%BF%9D%E6%8A%A4%E6%8E%A2%E6%9E%90%5BJ%5D.%E7%94%B5%E5%AD%90%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83,2022,(06):50-56." title="参考文献"> </a><a href="%E8%B0%AD%E6%B5%B7%E5%8D%8E,%E6%9E%97%E5%A5%95%E6%BF%A0.%E8%BF%9D%E5%8F%8D%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE%E6%9E%84%E6%88%90%E4%BE%B5%E6%9D%83%5BJ%5D.%E4%BA%BA%E6%B0%91%E5%8F%B8%E6%B3%95,2022,(32):93-97.DOI:10.19684/j.cnki.1002-4603.2022.32.022." title="参考文献"> </a> <a href="%E6%9D%A8%E5%AE%88%E6%99%B6.%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E6%9D%83%E5%88%A9%E6%80%A7%E8%B4%A8%E5%8F%8A%E4%BF%9D%E6%8A%A4%E8%B7%AF%E5%BE%84%E6%8E%A2%E7%B4%A2%E2%80%94%E2%80%94%E4%BB%8E%E2%80%9C2022%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6%E4%BF%9D%E6%8A%A4%E7%AC%AC%E4%B8%80%E6%A1%88%E2%80%9D%E5%88%87%E5%85%A5%5BJ%5D.%E7%90%86%E8%AE%BA%E7%95%8C,2023,(06):65-71.DOI:10.13221/j.cnki.lljj.2023.06.015." title="参考文献"> </a>，目前国内司法裁判观点多参考借鉴国外司法裁判思路，同时结合我国司法环境做出适合我国国情及法律规定的解释及法律适用。</p>
+<p>对于违反开源协议，后续持续对开源作品的非法修改和发行等行为应当如何定性，实际上是存在一定的争议的。有的观点认为，许可人和被许可人基于要约和承诺，订立了电子许可合同，后续被许可人违反许可协议应当基于违约责任来进行规制；又有观点认为，被许可人违反许可协议，导致其许可被收回，根据著作权法的规定，未经许可使用他人作品应当通过侵权责任来规制。</p>
+<p>接下来我们就来探讨一下这两个相对主流的观点。</p>
+<p>首先，从法律规定上看，《民法典》第一百八十六条规定：“因当事人一方的违约行为，损害对方人身权益、财产权益的，受损害方有权选择请求其承担违约责任或者侵权责任。”也即是说，在法律上即使缔结了开源协议形成事实上的合约，后续的违约行为致使开源许可被收回，开源许可的收回并不影响许可人选择“违约责任”或者“侵权责任”中的任一维权路径追究法律责任。</p>
+<p><strong>关于违约责任路径</strong>。《民法典》第五百七十七条规定：“当事人一方不履行合同义务或者履行合同义务不符合约定的，应当承担继续履行、采取补救措施或者赔偿损失等违约责任。”也即是说，对于许可方而言，如果选择违约责任路径追究违约被许可人的责任，具体可以采取的措施或者可以主张的诉求可以是：继续履行、采取补救措施或者赔偿损失。</p>
+<p>如果采取“违约责任”的维权途径，关于赔偿损失《民法典》第五百八十四条规定：“当事人一方不履行合同义务或者履行合同义务不符合约定，造成对方损失的，损失赔偿额应当相当于因违约所造成的损失，包括合同履行后可以获得的利益；但是，不得超过违约一方订立合同时预见到或者应当预见到的因违约可能造成的损失。”在开源许可中，几乎所有的开源许可都是免费的，这意味着“订立合同时预见到或者应当预见到的因违约可能造成的损失”是不存在的，要证明开源许可人所可能存在的损失也存在一定的举证难度。在这种情形之下，主张赔偿损失的诉求可能不太容易实现。那么，剩下的可主张的诉求就剩下了继续履行和采取补救措施。对此，参考 CC 协议第六条 b 款第 1 项的规定：“自违反协议的行为纠正之日起自动恢复，但须在您发现违反情形后 30 日内纠正”，也即是说根据协议，违反开源协议者在出现违约情形之日起 30 天内可以自行纠正，来实现开源许可的重新获取。这个也符合《民法典》的“继续履行和采取补救措施”的规定。虽然协议中约定的是违约者自行纠正，而法律是赋予许可人主动主张的权利，但从 CC 协议的开源精神看，要求违约者继续履行或采取补救措施，要求违约者继续履行 CC 开源协议将修改后的衍生作品进行开源，显然这是符合开源协议的“开放、合作、共享”的精神的。</p>
+<p><strong>关于侵权责任路径</strong>。根据《著作权法》和《民法典》的规定，当违反 CC 协议的作品使用者的开源许可被收回时，后续对开源作品的使用、改编和发行等行为属于未经著作权人许可的侵权行为，应当依法承担侵权责任。侵权责任的承担形式包括停止侵害、消除影响、赔礼道歉、赔偿损失等民事责任。前几个相对好理解，我们这里主要讲讲赔偿损失。</p>
+<p>对于开源方而言，其开源作品是相对难以直接通过开源行为获益的，故而赔偿损失中的直接损失是比较难以确定的。相反，对于侵权方对开源作品的使用行为，如果侵权方存在侵权获益的情况，则可以基于侵权方的侵权获益情况来确定侵权赔偿额。兜底的还有法院酌定的赔偿方式。区别于违约责任的维权路径，侵权责任的追责路径更加聚焦于要求侵权方停止侵权，也即是更加聚焦于限制侵权作品的产生。同时也更加聚焦于过去一段时间内侵权人侵权行为的惩治。对于衍生作品的未来传播和共享等等，需要侵权人改正其行为并遵守相关开源协议后重新获得许可。</p>
+<p>对于上述两种路径，知识产权界确实存在一些不同的声音，两方的支持者可以说是各有道理。对此，笔者认为对于如何选择“维权路径”，应该交由开源者（也就是著作权人）决定，毕竟开源行为实际上就是一种附条件的著作权许可行为，通过著作权人发出要约，被许可人履行承诺，从而使得双方达成一致的意思表示，开源协议缔结完成。如果开源许可人违反开源协议的约定，则开源许可当然被收回。许可被收回后，违约被许可人的行为既是违约行为，也是侵权行为。侵权责任和违约责任竞合，作为许可方和著作权人当然可以根据自己的意愿来保护自己的作品。</p>
+<p>另外，对于自始至终都没有遵守开源协议的侵权者，笔者认为，因为侵权人自始至终都没有做出符合要求的事实承诺，故而开源协议自始至终都未成立，侵权人毫无疑问是需要承担侵权责任的，并且即使后续侵权人履行开源协议的义务要求，也不能豁免侵权人侵权期间的侵权行为，因为在该期间侵权人并未获得任何法律意义上的许可，不能因为作品系开源作品就可以无视开源者的著作权，该段期间的侵权行为可以由开源者单独豁免，但不能剥夺开源者维权的权利。</p>
+<h2 id="NC-限制或阻碍开源作品的传播"><a href="#NC-限制或阻碍开源作品的传播" class="headerlink" title="NC 限制或阻碍开源作品的传播"></a>NC 限制或阻碍开源作品的传播</h2><p>CC 协议基本聊完了，从 CC 协议的类型、CC 协议基于“要约-承诺”成立的范式以及侵害开源作品的后果，可以看出 CC 协议几乎涵盖了开源作品的方方面面，同时对于各个不同法域都存在较高的兼容性，是受到广泛认可的作品、数据方向的著作权开源协议。前面笔者提到“CC BY-NC-SA”或许是目前最好的 CC 协议许可类型，但目前看来 CC 协议也是存在一些问题的，CC 协议的 NC 限制条款可能会阻碍开源作品的传播。</p>
+<p><strong>NC 限制条款实际上几乎是一刀切地拒绝一切商业行为的</strong>。关于 NC 条款的规定，CC 协议原文如下：“A commercial use is one primarily intended for commercial advantage or monetary compensation.”（商业性使用是指主要目的为获得商业优势或金钱回报。）其中，金钱回报自不待言，即是禁止基于作品或者衍生作品获得直接的金钱收益；而商业优势就相对笼统了，正常而言如果基于开源作品或者其衍生作品，获得了一定的声望、粉丝增长以及页面广告收益等，都可能被视为获得商业优势的行为。这实际上，会对一些个人或者公司转发、使用附带 NC 限制的作品造成一些顾虑，也增加了个人或者公司使用附带 NC 限制开源作品的麻烦，往往个人或者公司使用这样的开源作品时，最为保险的做法是联系开源作者申请获得单独的许可，从而避免后续不必要的麻烦。加之现在的互联网时代，对于自媒体平台而言，对开源作品的转发自然就会涉及粉丝增长和账号声望的增加，这明显属于 CC 协议中的“商业行为”，对于自媒体平台而言，使用开源作品前深入学习、了解和理解开源协议条款是十分重要且必要的。综上所述，附带 NC 限制条件的 CC 开源协议作品，实际上对于开源作品的传播的广泛适用性而言是存在明显限制的。</p>
+<p>学术界对“非商业化”的讨论其实也是不少的。对此，笔者认为或许探索一些新的限制条件，而非一刀切的限制“非商业化”更加有助于开源作品的发展。当下自媒体时代，自媒体账号使用一些开源作品做为素材在所难免，甚至有些自媒体会直接转载开源作品，如果自媒体不直接从开源作品获益、也不向终端用户收取费用，仅在账号粉丝数量、作品阅读平台分成以及页面广告内容展示（不影响作品阅读的情况下，如页面或者评论区等不影响作品阅读的位置展示广告），笔者认为这样的分发行为也是可以接受的。</p>
+<p>再回到开源精神上，“开放”应当是使得更多人能够接触到开源作品，不阻碍任何人接受知识；“共享”应当是开源作者的精神内核，不单单开源作者本身做为分享者去分享知识，开源者更是希望有源源不断的优秀作者加入到开源运动中，有源源不断的开源作品进入公共领域，成为全人类共同的精神财富；“合作”也是希望开源作品能够由源源不断的后来者进行传播、优化和迭代，实现开源作品超脱开源作者本人的意志，不断向前发展。而自媒体平台在开源作品的传播和衍生作品的诞生上应该是不可或缺的重要渠道，同时也是开源运动最应当团结的重要力量。只要开源作品的传播，对于最终的终端用户免费开放，不涉及直接的金钱交易，其他的间接商业化行为（例如获取广告收入、获得粉丝增长等）应该是可以被接受的。这意味着，CC 协议的 NC 限制可能不太能够适应当前的发展，毕竟不可能要求所有的开源参与者都视金钱如粪土，不获取任何可能的收益，纯粹用爱发电。太过苛刻的限制条件反而可能会成为开源运动的阻碍，与时俱进才能够让开源运动走得更远、更持久。</p>
+<p>结合前面的分析，笔者认为，将 NC 限制条件修改成 NM（Non-monetary income，禁止直接金钱收益），例如对于个人、公司或者读者、观众等群体获取作品进行阅读、观赏等应当予以免费，将相关作品对终端用户免费做为明确限制，同时许可通过开源作品获得粉丝增长、账号声望增加以及附带限制的广告收益、平台分成等，从而增加开源运动参与者的收益渠道，便利更多人加入到开源运动中，为开源运动注入更多的活力和动力。</p>
+<p>同时，将 SA（ShareAlike，相同方式共享）限制条件明确载入开源作品中，也是极其必要的。如果一个新的作品，其绝大多数创意共享都来源于开源作品，将前人这份善意在后续的衍生作品中继续传递，笔者认为这是对开源作品的起码尊重，故而也是十分必要的。</p>
+<p>如果有一个开源协议附带有禁止直接金钱收益的条款，那么相对更好的开源协议限制条件笔者认为将会是“署名-禁止直接金钱收入-相同方式共享”的形式，其中“署名”是对开源作品最起码的尊重；“禁止直接金钱收入”是避免已经进入公共领域的知识被他人用于非法牟利，同时也保障终端用户能够免费获取知识，保障开源传播者能够获得合理的收入，进而提高开源参与者的积极性；“相同方式共享”是对开源运动的积极回应，以“相同方式共享”的形式促进更多的人加入到开源运动中，从而使得有源源不断的开源作品持续涌现。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://blog.lyron.top">李立润（Lyron Lee）</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://mp.weixin.qq.com/s/x0pstBDB1jh8PAmbKvHlmw">https://mp.weixin.qq.com/s/x0pstBDB1jh8PAmbKvHlmw</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.lyron.top" target="_blank">Lyron's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%BC%80%E6%BA%90%E5%8D%8F%E8%AE%AE/">开源协议</a><a class="post-meta__tags" href="/tags/Creative-Commons/">Creative Commons</a></div><div class="post_share"><div class="social-share" data-image="https://pic.lyron.top/pic/a07f6db792364d529819580dacc47f06_1.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/archives/a6dd0791.html" title="从知识产权ABS到知识产权RWA（二）——知识产权代币化前瞻探讨"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">从知识产权ABS到知识产权RWA（二）——知识产权代币化前瞻探讨</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://pic.lyron.top/pic/a07f6db792364d529819580dacc47f06_1.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">李立润（Lyron Lee）</div><div class="author-info__description">专注于知识产权、不正当竞争以及公司法律事务</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">25</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="mailto:LyronLee@qq.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%80%E6%BA%90%E8%BF%90%E5%8A%A8%E7%9A%84%E8%83%8C%E6%99%AF"><span class="toc-number">1.</span> <span class="toc-text">开源运动的背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Creative-Commons-%E5%8D%8F%E8%AE%AE%EF%BC%88CC-%E5%8D%8F%E8%AE%AE%EF%BC%89"><span class="toc-number">2.</span> <span class="toc-text">Creative Commons 协议（CC 协议）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%80%E6%BA%90%E6%BA%90%E8%87%AA%E4%BA%8E%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E5%9E%84%E6%96%AD"><span class="toc-number">3.</span> <span class="toc-text">开源源自于知识产权垄断</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CC-%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%BC%80%E6%BA%90%E8%AE%B8%E5%8F%AF%E7%B1%BB%E5%9E%8B"><span class="toc-number">4.</span> <span class="toc-text">CC 协议的开源许可类型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#CC-BY"><span class="toc-number">4.1.</span> <span class="toc-text">CC BY</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CC-BY-SA"><span class="toc-number">4.2.</span> <span class="toc-text">CC BY-SA</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CC-BY-NC-SA"><span class="toc-number">4.3.</span> <span class="toc-text">CC BY-NC(-SA)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CC-BY-NC-ND"><span class="toc-number">4.4.</span> <span class="toc-text">CC BY-(NC)-ND</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CC-0"><span class="toc-number">4.5.</span> <span class="toc-text">CC 0</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CC-BY-NC-SA-%E6%88%96%E4%B8%BA%E6%9C%80%E4%BC%98%E5%BC%80%E6%BA%90%E7%B1%BB%E5%9E%8B"><span class="toc-number">5.</span> <span class="toc-text">CC BY-NC-SA 或为最优开源类型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9D%E5%8F%8D-CC-%E5%BC%80%E6%BA%90%E5%8D%8F%E8%AE%AE%E7%9A%84%E5%90%8E%E6%9E%9C"><span class="toc-number">6.</span> <span class="toc-text">违反 CC 开源协议的后果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#NC-%E9%99%90%E5%88%B6%E6%88%96%E9%98%BB%E7%A2%8D%E5%BC%80%E6%BA%90%E4%BD%9C%E5%93%81%E7%9A%84%E4%BC%A0%E6%92%AD"><span class="toc-number">7.</span> <span class="toc-text">NC 限制或阻碍开源作品的传播</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/archives/a3b754e5.html" title="开源协议 Creative Commons">开源协议 Creative Commons</a><time datetime="2025-09-08T09:21:00.000Z" title="发表于 2025-09-08 17:21:00">2025-09-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/archives/a6dd0791.html" title="从知识产权ABS到知识产权RWA（二）——知识产权代币化前瞻探讨">从知识产权ABS到知识产权RWA（二）——知识产权代币化前瞻探讨</a><time datetime="2025-08-01T00:00:00.000Z" title="发表于 2025-08-01 08:00:00">2025-08-01</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/archives/8e7d436.html" title="从知识产权ABS到知识产权RWA（一）——知识产权证券化">从知识产权ABS到知识产权RWA（一）——知识产权证券化</a><time datetime="2025-07-26T00:57:33.000Z" title="发表于 2025-07-26 08:57:33">2025-07-26</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/archives/a9f621c5.html" title="专利确权程序中仅修改从属权利要求应否接受">专利确权程序中仅修改从属权利要求应否接受</a><time datetime="2024-07-31T01:15:33.000Z" title="发表于 2024-07-31 09:15:33">2024-07-31</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/archives/b1b79cab.html" title="专利确权程序中“进一步限定”式修改的审查">专利确权程序中“进一步限定”式修改的审查</a><time datetime="2024-07-30T01:15:33.000Z" title="发表于 2024-07-30 09:15:33">2024-07-30</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://t.alcy.cc/fj')"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2025 By 李立润（Lyron Lee）</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">简</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
